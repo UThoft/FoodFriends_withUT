@@ -17,10 +17,8 @@
 		3CA8AA3E163D477300D78EC4 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CA8AA3D163D477300D78EC4 /* Default@2x.png */; };
 		3CA8AA40163D477300D78EC4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CA8AA3F163D477300D78EC4 /* Default-568h@2x.png */; };
 		3CA8AA43163D477300D78EC4 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CA8AA41163D477300D78EC4 /* MainStoryboard.storyboard */; };
-		3CA8AA46163D477400D78EC4 /* UTFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA8AA45163D477400D78EC4 /* UTFirstViewController.m */; };
 		3CA8AA48163D477400D78EC4 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CA8AA47163D477400D78EC4 /* first.png */; };
 		3CA8AA4A163D477400D78EC4 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CA8AA49163D477400D78EC4 /* first@2x.png */; };
-		3CA8AA4D163D477400D78EC4 /* UTSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA8AA4C163D477400D78EC4 /* UTSecondViewController.m */; };
 		3CA8AA4F163D477400D78EC4 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CA8AA4E163D477400D78EC4 /* second.png */; };
 		3CA8AA51163D477400D78EC4 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CA8AA50163D477400D78EC4 /* second@2x.png */; };
 		3CA8AA59163D477400D78EC4 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CA8AA58163D477400D78EC4 /* SenTestingKit.framework */; };
@@ -28,6 +26,19 @@
 		3CA8AA5B163D477400D78EC4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CA8AA2B163D477300D78EC4 /* Foundation.framework */; };
 		3CA8AA63163D477400D78EC4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3CA8AA61163D477400D78EC4 /* InfoPlist.strings */; };
 		3CA8AA66163D477400D78EC4 /* FoodFriends_withUTTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA8AA65163D477400D78EC4 /* FoodFriends_withUTTests.m */; };
+		3CA8AA7A163D47DE00D78EC4 /* UTInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA8AA71163D47DE00D78EC4 /* UTInfoViewController.m */; };
+		3CA8AA7B163D47DE00D78EC4 /* UTMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA8AA73163D47DE00D78EC4 /* UTMessageViewController.m */; };
+		3CA8AA7C163D47DE00D78EC4 /* UTMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA8AA75163D47DE00D78EC4 /* UTMeViewController.m */; };
+		3CA8AA7D163D47DE00D78EC4 /* UTPostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA8AA77163D47DE00D78EC4 /* UTPostViewController.m */; };
+		3CA8AA7E163D47DE00D78EC4 /* UTButtonPressed.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA8AA79163D47DE00D78EC4 /* UTButtonPressed.m */; };
+		3CAA61A9163D4C9600C16D79 /* UTClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CAA61A8163D4C9600C16D79 /* UTClient.m */; };
+		3CAA61AD163D4CD900C16D79 /* UTJsonFoodFriends.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CAA61AC163D4CD900C16D79 /* UTJsonFoodFriends.m */; };
+		3CAA61B6163D4D1C00C16D79 /* UTMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CAA61AF163D4D1C00C16D79 /* UTMessage.m */; };
+		3CAA61B7163D4D1C00C16D79 /* UTPost.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CAA61B1163D4D1C00C16D79 /* UTPost.m */; };
+		3CAA61B8163D4D1C00C16D79 /* UTMember.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CAA61B3163D4D1C00C16D79 /* UTMember.m */; };
+		3CAA61B9163D4D1C00C16D79 /* UTTagGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CAA61B5163D4D1C00C16D79 /* UTTagGroup.m */; };
+		3CAA61BE163D67EB00C16D79 /* FoodFriends.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 3CAA61BB163D67EB00C16D79 /* FoodFriends.xcdatamodel */; };
+		3CAA61BF163D67EB00C16D79 /* MessageCoreData.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CAA61BD163D67EB00C16D79 /* MessageCoreData.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,26 +60,47 @@
 		3CA8AA33163D477300D78EC4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3CA8AA35163D477300D78EC4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3CA8AA37163D477300D78EC4 /* FoodFriends_withUT-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FoodFriends_withUT-Prefix.pch"; sourceTree = "<group>"; };
-		3CA8AA38163D477300D78EC4 /* UTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UTAppDelegate.h; sourceTree = "<group>"; };
-		3CA8AA39163D477300D78EC4 /* UTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UTAppDelegate.m; sourceTree = "<group>"; };
+		3CA8AA38163D477300D78EC4 /* UTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = UTAppDelegate.h; path = FoodFriends_withUT/UTAppDelegate.h; sourceTree = "<group>"; };
+		3CA8AA39163D477300D78EC4 /* UTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = UTAppDelegate.m; path = FoodFriends_withUT/UTAppDelegate.m; sourceTree = "<group>"; };
 		3CA8AA3B163D477300D78EC4 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		3CA8AA3D163D477300D78EC4 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		3CA8AA3F163D477300D78EC4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		3CA8AA42163D477300D78EC4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		3CA8AA44163D477400D78EC4 /* UTFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UTFirstViewController.h; sourceTree = "<group>"; };
-		3CA8AA45163D477400D78EC4 /* UTFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UTFirstViewController.m; sourceTree = "<group>"; };
-		3CA8AA47163D477400D78EC4 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
-		3CA8AA49163D477400D78EC4 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		3CA8AA4B163D477400D78EC4 /* UTSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UTSecondViewController.h; sourceTree = "<group>"; };
-		3CA8AA4C163D477400D78EC4 /* UTSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UTSecondViewController.m; sourceTree = "<group>"; };
-		3CA8AA4E163D477400D78EC4 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
-		3CA8AA50163D477400D78EC4 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		3CA8AA47163D477400D78EC4 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = first.png; path = FoodFriends_withUT/first.png; sourceTree = "<group>"; };
+		3CA8AA49163D477400D78EC4 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "first@2x.png"; path = "FoodFriends_withUT/first@2x.png"; sourceTree = "<group>"; };
+		3CA8AA4E163D477400D78EC4 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = second.png; path = FoodFriends_withUT/second.png; sourceTree = "<group>"; };
+		3CA8AA50163D477400D78EC4 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "second@2x.png"; path = "FoodFriends_withUT/second@2x.png"; sourceTree = "<group>"; };
 		3CA8AA57163D477400D78EC4 /* FoodFriends_withUTTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodFriends_withUTTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CA8AA58163D477400D78EC4 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		3CA8AA60163D477400D78EC4 /* FoodFriends_withUTTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FoodFriends_withUTTests-Info.plist"; sourceTree = "<group>"; };
 		3CA8AA62163D477400D78EC4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3CA8AA64163D477400D78EC4 /* FoodFriends_withUTTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FoodFriends_withUTTests.h; sourceTree = "<group>"; };
 		3CA8AA65163D477400D78EC4 /* FoodFriends_withUTTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FoodFriends_withUTTests.m; sourceTree = "<group>"; };
+		3CA8AA70163D47DE00D78EC4 /* UTInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTInfoViewController.h; sourceTree = "<group>"; };
+		3CA8AA71163D47DE00D78EC4 /* UTInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTInfoViewController.m; sourceTree = "<group>"; };
+		3CA8AA72163D47DE00D78EC4 /* UTMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTMessageViewController.h; sourceTree = "<group>"; };
+		3CA8AA73163D47DE00D78EC4 /* UTMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTMessageViewController.m; sourceTree = "<group>"; };
+		3CA8AA74163D47DE00D78EC4 /* UTMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTMeViewController.h; sourceTree = "<group>"; };
+		3CA8AA75163D47DE00D78EC4 /* UTMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTMeViewController.m; sourceTree = "<group>"; };
+		3CA8AA76163D47DE00D78EC4 /* UTPostViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTPostViewController.h; sourceTree = "<group>"; };
+		3CA8AA77163D47DE00D78EC4 /* UTPostViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTPostViewController.m; sourceTree = "<group>"; };
+		3CA8AA78163D47DE00D78EC4 /* UTButtonPressed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTButtonPressed.h; sourceTree = "<group>"; };
+		3CA8AA79163D47DE00D78EC4 /* UTButtonPressed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTButtonPressed.m; sourceTree = "<group>"; };
+		3CAA61A7163D4C9600C16D79 /* UTClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTClient.h; sourceTree = "<group>"; };
+		3CAA61A8163D4C9600C16D79 /* UTClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTClient.m; sourceTree = "<group>"; };
+		3CAA61AB163D4CD900C16D79 /* UTJsonFoodFriends.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTJsonFoodFriends.h; sourceTree = "<group>"; };
+		3CAA61AC163D4CD900C16D79 /* UTJsonFoodFriends.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTJsonFoodFriends.m; sourceTree = "<group>"; };
+		3CAA61AE163D4D1C00C16D79 /* UTMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTMessage.h; sourceTree = "<group>"; };
+		3CAA61AF163D4D1C00C16D79 /* UTMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTMessage.m; sourceTree = "<group>"; };
+		3CAA61B0163D4D1C00C16D79 /* UTPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTPost.h; sourceTree = "<group>"; };
+		3CAA61B1163D4D1C00C16D79 /* UTPost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTPost.m; sourceTree = "<group>"; };
+		3CAA61B2163D4D1C00C16D79 /* UTMember.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTMember.h; sourceTree = "<group>"; };
+		3CAA61B3163D4D1C00C16D79 /* UTMember.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTMember.m; sourceTree = "<group>"; };
+		3CAA61B4163D4D1C00C16D79 /* UTTagGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTTagGroup.h; sourceTree = "<group>"; };
+		3CAA61B5163D4D1C00C16D79 /* UTTagGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTTagGroup.m; sourceTree = "<group>"; };
+		3CAA61BB163D67EB00C16D79 /* FoodFriends.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FoodFriends.xcdatamodel; sourceTree = "<group>"; };
+		3CAA61BC163D67EB00C16D79 /* MessageCoreData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageCoreData.h; sourceTree = "<group>"; };
+		3CAA61BD163D67EB00C16D79 /* MessageCoreData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageCoreData.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +130,11 @@
 		3CA8AA1A163D477200D78EC4 = {
 			isa = PBXGroup;
 			children = (
+				3CAA61BA163D67DF00C16D79 /* CoreData */,
+				3CAA61AA163D4CA900C16D79 /* Model */,
+				3CAA61A6163D4C7700C16D79 /* Client */,
+				3CA8AA7F163D49D900D78EC4 /* Images */,
+				3CA8AA6F163D47B800D78EC4 /* Classes */,
 				3CA8AA2F163D477300D78EC4 /* FoodFriends_withUT */,
 				3CA8AA5E163D477400D78EC4 /* FoodFriends_withUTTests */,
 				3CA8AA28163D477300D78EC4 /* Frameworks */,
@@ -128,17 +165,7 @@
 		3CA8AA2F163D477300D78EC4 /* FoodFriends_withUT */ = {
 			isa = PBXGroup;
 			children = (
-				3CA8AA38163D477300D78EC4 /* UTAppDelegate.h */,
-				3CA8AA39163D477300D78EC4 /* UTAppDelegate.m */,
 				3CA8AA41163D477300D78EC4 /* MainStoryboard.storyboard */,
-				3CA8AA44163D477400D78EC4 /* UTFirstViewController.h */,
-				3CA8AA45163D477400D78EC4 /* UTFirstViewController.m */,
-				3CA8AA47163D477400D78EC4 /* first.png */,
-				3CA8AA49163D477400D78EC4 /* first@2x.png */,
-				3CA8AA4B163D477400D78EC4 /* UTSecondViewController.h */,
-				3CA8AA4C163D477400D78EC4 /* UTSecondViewController.m */,
-				3CA8AA4E163D477400D78EC4 /* second.png */,
-				3CA8AA50163D477400D78EC4 /* second@2x.png */,
 				3CA8AA30163D477300D78EC4 /* Supporting Files */,
 			);
 			path = FoodFriends_withUT;
@@ -175,6 +202,72 @@
 				3CA8AA61163D477400D78EC4 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3CA8AA6F163D47B800D78EC4 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3CA8AA70163D47DE00D78EC4 /* UTInfoViewController.h */,
+				3CA8AA71163D47DE00D78EC4 /* UTInfoViewController.m */,
+				3CA8AA72163D47DE00D78EC4 /* UTMessageViewController.h */,
+				3CA8AA73163D47DE00D78EC4 /* UTMessageViewController.m */,
+				3CA8AA74163D47DE00D78EC4 /* UTMeViewController.h */,
+				3CA8AA75163D47DE00D78EC4 /* UTMeViewController.m */,
+				3CA8AA76163D47DE00D78EC4 /* UTPostViewController.h */,
+				3CA8AA77163D47DE00D78EC4 /* UTPostViewController.m */,
+				3CA8AA78163D47DE00D78EC4 /* UTButtonPressed.h */,
+				3CA8AA79163D47DE00D78EC4 /* UTButtonPressed.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		3CA8AA7F163D49D900D78EC4 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				3CA8AA47163D477400D78EC4 /* first.png */,
+				3CA8AA49163D477400D78EC4 /* first@2x.png */,
+				3CA8AA4E163D477400D78EC4 /* second.png */,
+				3CA8AA50163D477400D78EC4 /* second@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		3CAA61A6163D4C7700C16D79 /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				3CAA61AB163D4CD900C16D79 /* UTJsonFoodFriends.h */,
+				3CAA61AC163D4CD900C16D79 /* UTJsonFoodFriends.m */,
+				3CAA61A7163D4C9600C16D79 /* UTClient.h */,
+				3CAA61A8163D4C9600C16D79 /* UTClient.m */,
+				3CA8AA38163D477300D78EC4 /* UTAppDelegate.h */,
+				3CA8AA39163D477300D78EC4 /* UTAppDelegate.m */,
+			);
+			name = Client;
+			sourceTree = "<group>";
+		};
+		3CAA61AA163D4CA900C16D79 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3CAA61AE163D4D1C00C16D79 /* UTMessage.h */,
+				3CAA61AF163D4D1C00C16D79 /* UTMessage.m */,
+				3CAA61B0163D4D1C00C16D79 /* UTPost.h */,
+				3CAA61B1163D4D1C00C16D79 /* UTPost.m */,
+				3CAA61B2163D4D1C00C16D79 /* UTMember.h */,
+				3CAA61B3163D4D1C00C16D79 /* UTMember.m */,
+				3CAA61B4163D4D1C00C16D79 /* UTTagGroup.h */,
+				3CAA61B5163D4D1C00C16D79 /* UTTagGroup.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		3CAA61BA163D67DF00C16D79 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				3CAA61BB163D67EB00C16D79 /* FoodFriends.xcdatamodel */,
+				3CAA61BC163D67EB00C16D79 /* MessageCoreData.h */,
+				3CAA61BD163D67EB00C16D79 /* MessageCoreData.m */,
+			);
+			name = CoreData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -294,8 +387,6 @@
 			files = (
 				3CA8AA36163D477300D78EC4 /* main.m in Sources */,
 				3CA8AA3A163D477300D78EC4 /* UTAppDelegate.m in Sources */,
-				3CA8AA46163D477400D78EC4 /* UTFirstViewController.m in Sources */,
-				3CA8AA4D163D477400D78EC4 /* UTSecondViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +395,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				3CA8AA66163D477400D78EC4 /* FoodFriends_withUTTests.m in Sources */,
+				3CA8AA7A163D47DE00D78EC4 /* UTInfoViewController.m in Sources */,
+				3CA8AA7B163D47DE00D78EC4 /* UTMessageViewController.m in Sources */,
+				3CA8AA7C163D47DE00D78EC4 /* UTMeViewController.m in Sources */,
+				3CA8AA7D163D47DE00D78EC4 /* UTPostViewController.m in Sources */,
+				3CA8AA7E163D47DE00D78EC4 /* UTButtonPressed.m in Sources */,
+				3CAA61A9163D4C9600C16D79 /* UTClient.m in Sources */,
+				3CAA61AD163D4CD900C16D79 /* UTJsonFoodFriends.m in Sources */,
+				3CAA61B6163D4D1C00C16D79 /* UTMessage.m in Sources */,
+				3CAA61B7163D4D1C00C16D79 /* UTPost.m in Sources */,
+				3CAA61B8163D4D1C00C16D79 /* UTMember.m in Sources */,
+				3CAA61B9163D4D1C00C16D79 /* UTTagGroup.m in Sources */,
+				3CAA61BE163D67EB00C16D79 /* FoodFriends.xcdatamodel in Sources */,
+				3CAA61BF163D67EB00C16D79 /* MessageCoreData.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -469,6 +573,7 @@
 				3CA8AA6B163D477400D78EC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3CA8AA6C163D477400D78EC4 /* Build configuration list for PBXNativeTarget "FoodFriends_withUTTests" */ = {
 			isa = XCConfigurationList;
@@ -477,6 +582,7 @@
 				3CA8AA6E163D477400D78EC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

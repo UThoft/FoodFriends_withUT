@@ -1,18 +1,18 @@
 //
-//  UTSecondViewController.m
-//  FoodFriends_withUT
+//  PostViewController.m
+//  FoodFriends
 //
-//  Created by Jin Wang on 12-10-28.
+//  Created by jin on 12-10-8.
 //  Copyright (c) 2012年 UThoft. All rights reserved.
 //
 
-#import "UTSecondViewController.h"
+#import "UTPostViewController.h"
 
-@interface UTSecondViewController ()
+@interface UTPostViewController ()
 
 @end
 
-@implementation UTSecondViewController
+@implementation UTPostViewController
 
 - (void)viewDidLoad
 {
@@ -25,5 +25,6 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
 
 @end
