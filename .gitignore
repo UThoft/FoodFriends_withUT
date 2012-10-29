@@ -13,3 +13,10 @@ build/*
 xcuserdata
 profile
 *.moved-aside
+FoodFriends_withUT.xcodeproj/project.pbxproj
+
+FoodFriends_withUT.xcodeproj/project.xcworkspace/xcuserdata/Jin.xcuserdatad/UserInterfaceState.xcuserstate
+
+FoodFriends_withUT/MainStoryboard.storyboard
+
+FoodFriends_withUT.xcodeproj/project.pbxproj
