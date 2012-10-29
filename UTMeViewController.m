@@ -30,21 +30,4 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (IBAction)buttonP:(id)sender
-{
-    if ([sender tag] == 1)
-    {
-        //UIAlertView *alert = [[UIAlertView alloc]initWithTitle:@"Hello" message:@"Yes, cool!" delegate:nil cancelButtonTitle:@"NO, don't press me" otherButtonTitles:nil, nil];
-        //[alert show];
-        [sender setTitle:@"enter" forState:UIControlStateNormal];
-        //ButtonPressed *button = [ButtonPressed alloc];
-        //[button buttonPressed:1];
-        [UTButtonPressed buttonPressed:1];
-    }
-    else
-    {
-        [sender setTitle:@"not enter" forState:UIControlStateNormal];
-    }
-}
-
 @end

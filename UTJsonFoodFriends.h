@@ -10,8 +10,7 @@
 
 @interface UTJsonFoodFriends : NSObject
 
-+ (id) sendRequireToServer:(int) taskID
-                          :(NSString *) taskData;
-// houstin test
++ (id)sendRequireToServer:(int) taskID
+                         :(NSString *) taskData;
 
 @end

@@ -10,4 +10,10 @@
 
 @implementation UTJsonFoodFriends
 
++ (id)sendRequireToServer:(int)taskID
+                         :(NSString *) taskData
+{
+    return nil;
+}
+
 @end

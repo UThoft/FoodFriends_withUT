@@ -10,4 +10,16 @@
 
 @interface UTMessageViewController : UIViewController
 
+//  Initial Functions
+- (int)getFriendsFromCache;
+- (int)getFriendsFromServer;
+- (int)getMessageFromCache;
+
+//  Actions
+- (IBAction)friendSelected:(id)sender;
+
+//  Message
+- (int)messageSendTo:(NSString *)memberID;
+- (int)messageCacheUpdate;
+
 @end

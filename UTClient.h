@@ -10,4 +10,16 @@
 
 @interface UTClient : NSObject
 
+//  Log in
+
+//  Check Autolog
+- (bool)checkAutolog;
+
+//  Check Cache
+- (bool)checkLogCache;
+
+//  Check Info
+- (int)checkLogI
+
+
 @end

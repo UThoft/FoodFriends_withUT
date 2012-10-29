@@ -8,11 +8,16 @@
 
 #import <Foundation/Foundation.h>
 
-@interface UTButtonPressed : NSObject
+@interface UTCommonFunctions : NSObject
+
+//  Message Show
++ (void)showMessageWindow:(id)sender;
 
 
-+ (void) buttonPressed:(NSInteger)buttonId;
+// Botton Pressed
++ (void)sendMessageButtonPressed:(NSString *)memberID;
 
-
+//  Settings
++ (id)checkSetting:(NSInteger)settingID;
 
 @end

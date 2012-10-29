@@ -29,7 +29,7 @@
 		3CA8AA7B163D47DE00D78EC4 /* UTMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA8AA73163D47DE00D78EC4 /* UTMessageViewController.m */; };
 		3CA8AA7C163D47DE00D78EC4 /* UTMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA8AA75163D47DE00D78EC4 /* UTMeViewController.m */; };
 		3CA8AA7D163D47DE00D78EC4 /* UTPostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA8AA77163D47DE00D78EC4 /* UTPostViewController.m */; };
-		3CA8AA7E163D47DE00D78EC4 /* UTButtonPressed.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA8AA79163D47DE00D78EC4 /* UTButtonPressed.m */; };
+		3CA8AA7E163D47DE00D78EC4 /* UTCommonFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA8AA79163D47DE00D78EC4 /* UTCommonFunctions.m */; };
 		3CAA61A9163D4C9600C16D79 /* UTClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CAA61A8163D4C9600C16D79 /* UTClient.m */; };
 		3CAA61AD163D4CD900C16D79 /* UTJsonFoodFriends.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CAA61AC163D4CD900C16D79 /* UTJsonFoodFriends.m */; };
 		3CAA61B6163D4D1C00C16D79 /* UTMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CAA61AF163D4D1C00C16D79 /* UTMessage.m */; };
@@ -65,8 +65,8 @@
 		3CADA108163E675100AB9B79 /* UTMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA8AA75163D47DE00D78EC4 /* UTMeViewController.m */; };
 		3CADA109163E675100AB9B79 /* UTPostViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 3CA8AA76163D47DE00D78EC4 /* UTPostViewController.h */; };
 		3CADA10A163E675100AB9B79 /* UTPostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA8AA77163D47DE00D78EC4 /* UTPostViewController.m */; };
-		3CADA10B163E675100AB9B79 /* UTButtonPressed.h in Sources */ = {isa = PBXBuildFile; fileRef = 3CA8AA78163D47DE00D78EC4 /* UTButtonPressed.h */; };
-		3CADA10C163E675100AB9B79 /* UTButtonPressed.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA8AA79163D47DE00D78EC4 /* UTButtonPressed.m */; };
+		3CADA10B163E675100AB9B79 /* UTCommonFunctions.h in Sources */ = {isa = PBXBuildFile; fileRef = 3CA8AA78163D47DE00D78EC4 /* UTCommonFunctions.h */; };
+		3CADA10C163E675100AB9B79 /* UTCommonFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA8AA79163D47DE00D78EC4 /* UTCommonFunctions.m */; };
 		3CADA10F163E686000AB9B79 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CADA10E163E686000AB9B79 /* CoreData.framework */; };
 /* End PBXBuildFile section */
 
@@ -112,8 +112,8 @@
 		3CA8AA75163D47DE00D78EC4 /* UTMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTMeViewController.m; sourceTree = "<group>"; };
 		3CA8AA76163D47DE00D78EC4 /* UTPostViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTPostViewController.h; sourceTree = "<group>"; };
 		3CA8AA77163D47DE00D78EC4 /* UTPostViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTPostViewController.m; sourceTree = "<group>"; };
-		3CA8AA78163D47DE00D78EC4 /* UTButtonPressed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTButtonPressed.h; sourceTree = "<group>"; };
-		3CA8AA79163D47DE00D78EC4 /* UTButtonPressed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTButtonPressed.m; sourceTree = "<group>"; };
+		3CA8AA78163D47DE00D78EC4 /* UTCommonFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTCommonFunctions.h; sourceTree = "<group>"; };
+		3CA8AA79163D47DE00D78EC4 /* UTCommonFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTCommonFunctions.m; sourceTree = "<group>"; };
 		3CAA61A7163D4C9600C16D79 /* UTClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTClient.h; sourceTree = "<group>"; };
 		3CAA61A8163D4C9600C16D79 /* UTClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTClient.m; sourceTree = "<group>"; };
 		3CAA61AB163D4CD900C16D79 /* UTJsonFoodFriends.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTJsonFoodFriends.h; sourceTree = "<group>"; };
@@ -255,8 +255,8 @@
 				3CA8AA75163D47DE00D78EC4 /* UTMeViewController.m */,
 				3CA8AA76163D47DE00D78EC4 /* UTPostViewController.h */,
 				3CA8AA77163D47DE00D78EC4 /* UTPostViewController.m */,
-				3CA8AA78163D47DE00D78EC4 /* UTButtonPressed.h */,
-				3CA8AA79163D47DE00D78EC4 /* UTButtonPressed.m */,
+				3CA8AA78163D47DE00D78EC4 /* UTCommonFunctions.h */,
+				3CA8AA79163D47DE00D78EC4 /* UTCommonFunctions.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -463,8 +463,8 @@
 				3CADA108163E675100AB9B79 /* UTMeViewController.m in Sources */,
 				3CADA109163E675100AB9B79 /* UTPostViewController.h in Sources */,
 				3CADA10A163E675100AB9B79 /* UTPostViewController.m in Sources */,
-				3CADA10B163E675100AB9B79 /* UTButtonPressed.h in Sources */,
-				3CADA10C163E675100AB9B79 /* UTButtonPressed.m in Sources */,
+				3CADA10B163E675100AB9B79 /* UTCommonFunctions.h in Sources */,
+				3CADA10C163E675100AB9B79 /* UTCommonFunctions.m in Sources */,
 				3CA8AA36163D477300D78EC4 /* main.m in Sources */,
 				3CA8AA3A163D477300D78EC4 /* UTAppDelegate.m in Sources */,
 			);
@@ -479,7 +479,7 @@
 				3CA8AA7B163D47DE00D78EC4 /* UTMessageViewController.m in Sources */,
 				3CA8AA7C163D47DE00D78EC4 /* UTMeViewController.m in Sources */,
 				3CA8AA7D163D47DE00D78EC4 /* UTPostViewController.m in Sources */,
-				3CA8AA7E163D47DE00D78EC4 /* UTButtonPressed.m in Sources */,
+				3CA8AA7E163D47DE00D78EC4 /* UTCommonFunctions.m in Sources */,
 				3CAA61A9163D4C9600C16D79 /* UTClient.m in Sources */,
 				3CAA61AD163D4CD900C16D79 /* UTJsonFoodFriends.m in Sources */,
 				3CAA61B6163D4D1C00C16D79 /* UTMessage.m in Sources */,
