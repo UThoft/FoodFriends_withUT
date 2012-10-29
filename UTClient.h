@@ -8,6 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Client : NSObject
+@interface UTClient : NSObject
 
 @end

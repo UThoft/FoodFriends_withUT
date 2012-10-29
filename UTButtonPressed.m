@@ -19,7 +19,6 @@
 
 
 + (void) buttonPressed:(NSInteger)buttonId
-                      :(NSArray *)ace
 
 {
     if (buttonId == 1)  // XXX

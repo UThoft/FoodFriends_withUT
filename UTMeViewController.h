@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-#import "ButtonPressed.h"
+#import "UTButtonPressed.h"
 
 @interface UTMeViewController : UIViewController
 {
@@ -18,5 +18,11 @@
 @property (retain, nonatomic) UIButton *custom;
 
 - (IBAction)buttonP:(id)sender;
+- (IBAction)changePortrait:(id)sender;
+- (int)displayPortrait;
+- (int)refreshPortrait;
+- (int)portritCacheUpdate;
+- (int)openCamera;
+- (int)openPhoto;
 
 @end

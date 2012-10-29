@@ -39,7 +39,7 @@
         [sender setTitle:@"enter" forState:UIControlStateNormal];
         //ButtonPressed *button = [ButtonPressed alloc];
         //[button buttonPressed:1];
-        [ButtonPressed buttonPressed:1];
+        [UTButtonPressed buttonPressed:1];
     }
     else
     {
