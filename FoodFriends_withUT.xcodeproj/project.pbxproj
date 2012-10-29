@@ -1,0 +1,662 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3CA8AA2A163D477300D78EC4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CA8AA29163D477300D78EC4 /* UIKit.framework */; };
+		3CA8AA2C163D477300D78EC4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CA8AA2B163D477300D78EC4 /* Foundation.framework */; };
+		3CA8AA2E163D477300D78EC4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CA8AA2D163D477300D78EC4 /* CoreGraphics.framework */; };
+		3CA8AA34163D477300D78EC4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3CA8AA32163D477300D78EC4 /* InfoPlist.strings */; };
+		3CA8AA36163D477300D78EC4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA8AA35163D477300D78EC4 /* main.m */; };
+		3CA8AA3A163D477300D78EC4 /* UTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA8AA39163D477300D78EC4 /* UTAppDelegate.m */; };
+		3CA8AA3C163D477300D78EC4 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CA8AA3B163D477300D78EC4 /* Default.png */; };
+		3CA8AA3E163D477300D78EC4 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CA8AA3D163D477300D78EC4 /* Default@2x.png */; };
+		3CA8AA40163D477300D78EC4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CA8AA3F163D477300D78EC4 /* Default-568h@2x.png */; };
+		3CA8AA48163D477400D78EC4 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CA8AA47163D477400D78EC4 /* first.png */; };
+		3CA8AA4A163D477400D78EC4 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CA8AA49163D477400D78EC4 /* first@2x.png */; };
+		3CA8AA4F163D477400D78EC4 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CA8AA4E163D477400D78EC4 /* second.png */; };
+		3CA8AA51163D477400D78EC4 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CA8AA50163D477400D78EC4 /* second@2x.png */; };
+		3CA8AA59163D477400D78EC4 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CA8AA58163D477400D78EC4 /* SenTestingKit.framework */; };
+		3CA8AA5A163D477400D78EC4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CA8AA29163D477300D78EC4 /* UIKit.framework */; };
+		3CA8AA5B163D477400D78EC4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CA8AA2B163D477300D78EC4 /* Foundation.framework */; };
+		3CA8AA63163D477400D78EC4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3CA8AA61163D477400D78EC4 /* InfoPlist.strings */; };
+		3CA8AA66163D477400D78EC4 /* FoodFriends_withUTTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA8AA65163D477400D78EC4 /* FoodFriends_withUTTests.m */; };
+		3CA8AA7A163D47DE00D78EC4 /* UTInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA8AA71163D47DE00D78EC4 /* UTInfoViewController.m */; };
+		3CA8AA7B163D47DE00D78EC4 /* UTMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA8AA73163D47DE00D78EC4 /* UTMessageViewController.m */; };
+		3CA8AA7C163D47DE00D78EC4 /* UTMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA8AA75163D47DE00D78EC4 /* UTMeViewController.m */; };
+		3CA8AA7D163D47DE00D78EC4 /* UTPostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA8AA77163D47DE00D78EC4 /* UTPostViewController.m */; };
+		3CA8AA7E163D47DE00D78EC4 /* UTButtonPressed.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA8AA79163D47DE00D78EC4 /* UTButtonPressed.m */; };
+		3CAA61A9163D4C9600C16D79 /* UTClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CAA61A8163D4C9600C16D79 /* UTClient.m */; };
+		3CAA61AD163D4CD900C16D79 /* UTJsonFoodFriends.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CAA61AC163D4CD900C16D79 /* UTJsonFoodFriends.m */; };
+		3CAA61B6163D4D1C00C16D79 /* UTMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CAA61AF163D4D1C00C16D79 /* UTMessage.m */; };
+		3CAA61B7163D4D1C00C16D79 /* UTPost.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CAA61B1163D4D1C00C16D79 /* UTPost.m */; };
+		3CAA61B8163D4D1C00C16D79 /* UTMember.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CAA61B3163D4D1C00C16D79 /* UTMember.m */; };
+		3CAA61B9163D4D1C00C16D79 /* UTTagGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CAA61B5163D4D1C00C16D79 /* UTTagGroup.m */; };
+		3CAA61BE163D67EB00C16D79 /* FoodFriends.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 3CAA61BB163D67EB00C16D79 /* FoodFriends.xcdatamodel */; };
+		3CAA61BF163D67EB00C16D79 /* MessageCoreData.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CAA61BD163D67EB00C16D79 /* MessageCoreData.m */; };
+		3CADA0E2163E48DA00AB9B79 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3CADA0E1163E48DA00AB9B79 /* README.md */; };
+		3CADA0E4163E495000AB9B79 /* 开发文档.h in Resources */ = {isa = PBXBuildFile; fileRef = 3CADA0E3163E495000AB9B79 /* 开发文档.h */; };
+		3CADA0EE163E653B00AB9B79 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CADA0ED163E653B00AB9B79 /* MainStoryboard.storyboard */; };
+		3CADA0F3163E675100AB9B79 /* FoodFriends.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 3CAA61BB163D67EB00C16D79 /* FoodFriends.xcdatamodel */; };
+		3CADA0F4163E675100AB9B79 /* MessageCoreData.h in Sources */ = {isa = PBXBuildFile; fileRef = 3CAA61BC163D67EB00C16D79 /* MessageCoreData.h */; };
+		3CADA0F5163E675100AB9B79 /* MessageCoreData.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CAA61BD163D67EB00C16D79 /* MessageCoreData.m */; };
+		3CADA0F6163E675100AB9B79 /* UTMessage.h in Sources */ = {isa = PBXBuildFile; fileRef = 3CAA61AE163D4D1C00C16D79 /* UTMessage.h */; };
+		3CADA0F7163E675100AB9B79 /* UTMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CAA61AF163D4D1C00C16D79 /* UTMessage.m */; };
+		3CADA0F8163E675100AB9B79 /* UTPost.h in Sources */ = {isa = PBXBuildFile; fileRef = 3CAA61B0163D4D1C00C16D79 /* UTPost.h */; };
+		3CADA0F9163E675100AB9B79 /* UTPost.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CAA61B1163D4D1C00C16D79 /* UTPost.m */; };
+		3CADA0FA163E675100AB9B79 /* UTMember.h in Sources */ = {isa = PBXBuildFile; fileRef = 3CAA61B2163D4D1C00C16D79 /* UTMember.h */; };
+		3CADA0FB163E675100AB9B79 /* UTMember.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CAA61B3163D4D1C00C16D79 /* UTMember.m */; };
+		3CADA0FC163E675100AB9B79 /* UTTagGroup.h in Sources */ = {isa = PBXBuildFile; fileRef = 3CAA61B4163D4D1C00C16D79 /* UTTagGroup.h */; };
+		3CADA0FD163E675100AB9B79 /* UTTagGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CAA61B5163D4D1C00C16D79 /* UTTagGroup.m */; };
+		3CADA0FE163E675100AB9B79 /* UTJsonFoodFriends.h in Sources */ = {isa = PBXBuildFile; fileRef = 3CAA61AB163D4CD900C16D79 /* UTJsonFoodFriends.h */; };
+		3CADA0FF163E675100AB9B79 /* UTJsonFoodFriends.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CAA61AC163D4CD900C16D79 /* UTJsonFoodFriends.m */; };
+		3CADA100163E675100AB9B79 /* UTClient.h in Sources */ = {isa = PBXBuildFile; fileRef = 3CAA61A7163D4C9600C16D79 /* UTClient.h */; };
+		3CADA101163E675100AB9B79 /* UTClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CAA61A8163D4C9600C16D79 /* UTClient.m */; };
+		3CADA102163E675100AB9B79 /* UTAppDelegate.h in Sources */ = {isa = PBXBuildFile; fileRef = 3CA8AA38163D477300D78EC4 /* UTAppDelegate.h */; };
+		3CADA103163E675100AB9B79 /* UTInfoViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 3CA8AA70163D47DE00D78EC4 /* UTInfoViewController.h */; };
+		3CADA104163E675100AB9B79 /* UTInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA8AA71163D47DE00D78EC4 /* UTInfoViewController.m */; };
+		3CADA105163E675100AB9B79 /* UTMessageViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 3CA8AA72163D47DE00D78EC4 /* UTMessageViewController.h */; };
+		3CADA106163E675100AB9B79 /* UTMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA8AA73163D47DE00D78EC4 /* UTMessageViewController.m */; };
+		3CADA107163E675100AB9B79 /* UTMeViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 3CA8AA74163D47DE00D78EC4 /* UTMeViewController.h */; };
+		3CADA108163E675100AB9B79 /* UTMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA8AA75163D47DE00D78EC4 /* UTMeViewController.m */; };
+		3CADA109163E675100AB9B79 /* UTPostViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 3CA8AA76163D47DE00D78EC4 /* UTPostViewController.h */; };
+		3CADA10A163E675100AB9B79 /* UTPostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA8AA77163D47DE00D78EC4 /* UTPostViewController.m */; };
+		3CADA10B163E675100AB9B79 /* UTButtonPressed.h in Sources */ = {isa = PBXBuildFile; fileRef = 3CA8AA78163D47DE00D78EC4 /* UTButtonPressed.h */; };
+		3CADA10C163E675100AB9B79 /* UTButtonPressed.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA8AA79163D47DE00D78EC4 /* UTButtonPressed.m */; };
+		3CADA10F163E686000AB9B79 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CADA10E163E686000AB9B79 /* CoreData.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3CA8AA5C163D477400D78EC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CA8AA1C163D477300D78EC4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CA8AA24163D477300D78EC4;
+			remoteInfo = FoodFriends_withUT;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3CA8AA25163D477300D78EC4 /* FoodFriends_withUT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodFriends_withUT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CA8AA29163D477300D78EC4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3CA8AA2B163D477300D78EC4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3CA8AA2D163D477300D78EC4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3CA8AA31163D477300D78EC4 /* FoodFriends_withUT-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FoodFriends_withUT-Info.plist"; sourceTree = "<group>"; };
+		3CA8AA33163D477300D78EC4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3CA8AA35163D477300D78EC4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3CA8AA37163D477300D78EC4 /* FoodFriends_withUT-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FoodFriends_withUT-Prefix.pch"; sourceTree = "<group>"; };
+		3CA8AA38163D477300D78EC4 /* UTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = UTAppDelegate.h; path = FoodFriends_withUT/UTAppDelegate.h; sourceTree = "<group>"; };
+		3CA8AA39163D477300D78EC4 /* UTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = UTAppDelegate.m; path = FoodFriends_withUT/UTAppDelegate.m; sourceTree = "<group>"; };
+		3CA8AA3B163D477300D78EC4 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		3CA8AA3D163D477300D78EC4 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		3CA8AA3F163D477300D78EC4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		3CA8AA47163D477400D78EC4 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = first.png; path = FoodFriends_withUT/first.png; sourceTree = "<group>"; };
+		3CA8AA49163D477400D78EC4 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "first@2x.png"; path = "FoodFriends_withUT/first@2x.png"; sourceTree = "<group>"; };
+		3CA8AA4E163D477400D78EC4 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = second.png; path = FoodFriends_withUT/second.png; sourceTree = "<group>"; };
+		3CA8AA50163D477400D78EC4 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "second@2x.png"; path = "FoodFriends_withUT/second@2x.png"; sourceTree = "<group>"; };
+		3CA8AA57163D477400D78EC4 /* FoodFriends_withUTTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodFriends_withUTTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CA8AA58163D477400D78EC4 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		3CA8AA60163D477400D78EC4 /* FoodFriends_withUTTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FoodFriends_withUTTests-Info.plist"; sourceTree = "<group>"; };
+		3CA8AA62163D477400D78EC4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3CA8AA64163D477400D78EC4 /* FoodFriends_withUTTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FoodFriends_withUTTests.h; sourceTree = "<group>"; };
+		3CA8AA65163D477400D78EC4 /* FoodFriends_withUTTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FoodFriends_withUTTests.m; sourceTree = "<group>"; };
+		3CA8AA70163D47DE00D78EC4 /* UTInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTInfoViewController.h; sourceTree = "<group>"; };
+		3CA8AA71163D47DE00D78EC4 /* UTInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTInfoViewController.m; sourceTree = "<group>"; };
+		3CA8AA72163D47DE00D78EC4 /* UTMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTMessageViewController.h; sourceTree = "<group>"; };
+		3CA8AA73163D47DE00D78EC4 /* UTMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTMessageViewController.m; sourceTree = "<group>"; };
+		3CA8AA74163D47DE00D78EC4 /* UTMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTMeViewController.h; sourceTree = "<group>"; };
+		3CA8AA75163D47DE00D78EC4 /* UTMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTMeViewController.m; sourceTree = "<group>"; };
+		3CA8AA76163D47DE00D78EC4 /* UTPostViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTPostViewController.h; sourceTree = "<group>"; };
+		3CA8AA77163D47DE00D78EC4 /* UTPostViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTPostViewController.m; sourceTree = "<group>"; };
+		3CA8AA78163D47DE00D78EC4 /* UTButtonPressed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTButtonPressed.h; sourceTree = "<group>"; };
+		3CA8AA79163D47DE00D78EC4 /* UTButtonPressed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTButtonPressed.m; sourceTree = "<group>"; };
+		3CAA61A7163D4C9600C16D79 /* UTClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTClient.h; sourceTree = "<group>"; };
+		3CAA61A8163D4C9600C16D79 /* UTClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTClient.m; sourceTree = "<group>"; };
+		3CAA61AB163D4CD900C16D79 /* UTJsonFoodFriends.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTJsonFoodFriends.h; sourceTree = "<group>"; };
+		3CAA61AC163D4CD900C16D79 /* UTJsonFoodFriends.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTJsonFoodFriends.m; sourceTree = "<group>"; };
+		3CAA61AE163D4D1C00C16D79 /* UTMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTMessage.h; sourceTree = "<group>"; };
+		3CAA61AF163D4D1C00C16D79 /* UTMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTMessage.m; sourceTree = "<group>"; };
+		3CAA61B0163D4D1C00C16D79 /* UTPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTPost.h; sourceTree = "<group>"; };
+		3CAA61B1163D4D1C00C16D79 /* UTPost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTPost.m; sourceTree = "<group>"; };
+		3CAA61B2163D4D1C00C16D79 /* UTMember.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTMember.h; sourceTree = "<group>"; };
+		3CAA61B3163D4D1C00C16D79 /* UTMember.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTMember.m; sourceTree = "<group>"; };
+		3CAA61B4163D4D1C00C16D79 /* UTTagGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTTagGroup.h; sourceTree = "<group>"; };
+		3CAA61B5163D4D1C00C16D79 /* UTTagGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTTagGroup.m; sourceTree = "<group>"; };
+		3CAA61BB163D67EB00C16D79 /* FoodFriends.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FoodFriends.xcdatamodel; sourceTree = "<group>"; };
+		3CAA61BC163D67EB00C16D79 /* MessageCoreData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageCoreData.h; sourceTree = "<group>"; };
+		3CAA61BD163D67EB00C16D79 /* MessageCoreData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageCoreData.m; sourceTree = "<group>"; };
+		3CADA0E1163E48DA00AB9B79 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		3CADA0E3163E495000AB9B79 /* 开发文档.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "开发文档.h"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		3CADA0E5163E63D400AB9B79 /* Me_开发文档.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Me_开发文档.h"; sourceTree = "<group>"; };
+		3CADA0E6163E63F700AB9B79 /* Post_开发文档.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Post_开发文档.h"; sourceTree = "<group>"; };
+		3CADA0E7163E640800AB9B79 /* Message_开发文档.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Message_开发文档.h"; sourceTree = "<group>"; };
+		3CADA0E8163E641D00AB9B79 /* Info_开发文档.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Info_开发文档.h"; sourceTree = "<group>"; };
+		3CADA0ED163E653B00AB9B79 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		3CADA10E163E686000AB9B79 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3CA8AA22163D477300D78EC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CA8AA2A163D477300D78EC4 /* UIKit.framework in Frameworks */,
+				3CA8AA2C163D477300D78EC4 /* Foundation.framework in Frameworks */,
+				3CA8AA2E163D477300D78EC4 /* CoreGraphics.framework in Frameworks */,
+				3CADA10F163E686000AB9B79 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CA8AA53163D477400D78EC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CA8AA59163D477400D78EC4 /* SenTestingKit.framework in Frameworks */,
+				3CA8AA5A163D477400D78EC4 /* UIKit.framework in Frameworks */,
+				3CA8AA5B163D477400D78EC4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3CA8AA1A163D477200D78EC4 = {
+			isa = PBXGroup;
+			children = (
+				3CADA0E0163E47B600AB9B79 /* Development */,
+				3CAA61BA163D67DF00C16D79 /* CoreData */,
+				3CAA61AA163D4CA900C16D79 /* Model */,
+				3CAA61A6163D4C7700C16D79 /* Client */,
+				3CA8AA7F163D49D900D78EC4 /* Images */,
+				3CA8AA6F163D47B800D78EC4 /* Classes */,
+				3CA8AA2F163D477300D78EC4 /* FoodFriends_withUT */,
+				3CA8AA5E163D477400D78EC4 /* FoodFriends_withUTTests */,
+				3CA8AA28163D477300D78EC4 /* Frameworks */,
+				3CA8AA26163D477300D78EC4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3CA8AA26163D477300D78EC4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CA8AA25163D477300D78EC4 /* FoodFriends_withUT.app */,
+				3CA8AA57163D477400D78EC4 /* FoodFriends_withUTTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3CA8AA28163D477300D78EC4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3CADA10E163E686000AB9B79 /* CoreData.framework */,
+				3CA8AA29163D477300D78EC4 /* UIKit.framework */,
+				3CA8AA2B163D477300D78EC4 /* Foundation.framework */,
+				3CA8AA2D163D477300D78EC4 /* CoreGraphics.framework */,
+				3CA8AA58163D477400D78EC4 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3CA8AA2F163D477300D78EC4 /* FoodFriends_withUT */ = {
+			isa = PBXGroup;
+			children = (
+				3CADA0ED163E653B00AB9B79 /* MainStoryboard.storyboard */,
+				3CA8AA30163D477300D78EC4 /* Supporting Files */,
+			);
+			path = FoodFriends_withUT;
+			sourceTree = "<group>";
+		};
+		3CA8AA30163D477300D78EC4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3CADA0E1163E48DA00AB9B79 /* README.md */,
+				3CA8AA31163D477300D78EC4 /* FoodFriends_withUT-Info.plist */,
+				3CA8AA32163D477300D78EC4 /* InfoPlist.strings */,
+				3CA8AA35163D477300D78EC4 /* main.m */,
+				3CA8AA37163D477300D78EC4 /* FoodFriends_withUT-Prefix.pch */,
+				3CA8AA3B163D477300D78EC4 /* Default.png */,
+				3CA8AA3D163D477300D78EC4 /* Default@2x.png */,
+				3CA8AA3F163D477300D78EC4 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3CA8AA5E163D477400D78EC4 /* FoodFriends_withUTTests */ = {
+			isa = PBXGroup;
+			children = (
+				3CA8AA64163D477400D78EC4 /* FoodFriends_withUTTests.h */,
+				3CA8AA65163D477400D78EC4 /* FoodFriends_withUTTests.m */,
+				3CA8AA5F163D477400D78EC4 /* Supporting Files */,
+			);
+			path = FoodFriends_withUTTests;
+			sourceTree = "<group>";
+		};
+		3CA8AA5F163D477400D78EC4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3CA8AA60163D477400D78EC4 /* FoodFriends_withUTTests-Info.plist */,
+				3CA8AA61163D477400D78EC4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3CA8AA6F163D47B800D78EC4 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3CA8AA70163D47DE00D78EC4 /* UTInfoViewController.h */,
+				3CA8AA71163D47DE00D78EC4 /* UTInfoViewController.m */,
+				3CA8AA72163D47DE00D78EC4 /* UTMessageViewController.h */,
+				3CA8AA73163D47DE00D78EC4 /* UTMessageViewController.m */,
+				3CA8AA74163D47DE00D78EC4 /* UTMeViewController.h */,
+				3CA8AA75163D47DE00D78EC4 /* UTMeViewController.m */,
+				3CA8AA76163D47DE00D78EC4 /* UTPostViewController.h */,
+				3CA8AA77163D47DE00D78EC4 /* UTPostViewController.m */,
+				3CA8AA78163D47DE00D78EC4 /* UTButtonPressed.h */,
+				3CA8AA79163D47DE00D78EC4 /* UTButtonPressed.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		3CA8AA7F163D49D900D78EC4 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				3CA8AA47163D477400D78EC4 /* first.png */,
+				3CA8AA49163D477400D78EC4 /* first@2x.png */,
+				3CA8AA4E163D477400D78EC4 /* second.png */,
+				3CA8AA50163D477400D78EC4 /* second@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		3CAA61A6163D4C7700C16D79 /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				3CAA61AB163D4CD900C16D79 /* UTJsonFoodFriends.h */,
+				3CAA61AC163D4CD900C16D79 /* UTJsonFoodFriends.m */,
+				3CAA61A7163D4C9600C16D79 /* UTClient.h */,
+				3CAA61A8163D4C9600C16D79 /* UTClient.m */,
+				3CA8AA38163D477300D78EC4 /* UTAppDelegate.h */,
+				3CA8AA39163D477300D78EC4 /* UTAppDelegate.m */,
+			);
+			name = Client;
+			sourceTree = "<group>";
+		};
+		3CAA61AA163D4CA900C16D79 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3CAA61AE163D4D1C00C16D79 /* UTMessage.h */,
+				3CAA61AF163D4D1C00C16D79 /* UTMessage.m */,
+				3CAA61B0163D4D1C00C16D79 /* UTPost.h */,
+				3CAA61B1163D4D1C00C16D79 /* UTPost.m */,
+				3CAA61B2163D4D1C00C16D79 /* UTMember.h */,
+				3CAA61B3163D4D1C00C16D79 /* UTMember.m */,
+				3CAA61B4163D4D1C00C16D79 /* UTTagGroup.h */,
+				3CAA61B5163D4D1C00C16D79 /* UTTagGroup.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		3CAA61BA163D67DF00C16D79 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				3CAA61BB163D67EB00C16D79 /* FoodFriends.xcdatamodel */,
+				3CAA61BC163D67EB00C16D79 /* MessageCoreData.h */,
+				3CAA61BD163D67EB00C16D79 /* MessageCoreData.m */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
+		3CADA0E0163E47B600AB9B79 /* Development */ = {
+			isa = PBXGroup;
+			children = (
+				3CADA0E3163E495000AB9B79 /* 开发文档.h */,
+				3CADA0E5163E63D400AB9B79 /* Me_开发文档.h */,
+				3CADA0E6163E63F700AB9B79 /* Post_开发文档.h */,
+				3CADA0E7163E640800AB9B79 /* Message_开发文档.h */,
+				3CADA0E8163E641D00AB9B79 /* Info_开发文档.h */,
+			);
+			name = Development;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3CA8AA24163D477300D78EC4 /* FoodFriends_withUT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CA8AA69163D477400D78EC4 /* Build configuration list for PBXNativeTarget "FoodFriends_withUT" */;
+			buildPhases = (
+				3CA8AA21163D477300D78EC4 /* Sources */,
+				3CA8AA22163D477300D78EC4 /* Frameworks */,
+				3CA8AA23163D477300D78EC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FoodFriends_withUT;
+			productName = FoodFriends_withUT;
+			productReference = 3CA8AA25163D477300D78EC4 /* FoodFriends_withUT.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3CA8AA56163D477400D78EC4 /* FoodFriends_withUTTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CA8AA6C163D477400D78EC4 /* Build configuration list for PBXNativeTarget "FoodFriends_withUTTests" */;
+			buildPhases = (
+				3CA8AA52163D477400D78EC4 /* Sources */,
+				3CA8AA53163D477400D78EC4 /* Frameworks */,
+				3CA8AA54163D477400D78EC4 /* Resources */,
+				3CA8AA55163D477400D78EC4 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CA8AA5D163D477400D78EC4 /* PBXTargetDependency */,
+			);
+			name = FoodFriends_withUTTests;
+			productName = FoodFriends_withUTTests;
+			productReference = 3CA8AA57163D477400D78EC4 /* FoodFriends_withUTTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3CA8AA1C163D477300D78EC4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = UT;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = UThoft;
+			};
+			buildConfigurationList = 3CA8AA1F163D477300D78EC4 /* Build configuration list for PBXProject "FoodFriends_withUT" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3CA8AA1A163D477200D78EC4;
+			productRefGroup = 3CA8AA26163D477300D78EC4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3CA8AA24163D477300D78EC4 /* FoodFriends_withUT */,
+				3CA8AA56163D477400D78EC4 /* FoodFriends_withUTTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3CA8AA23163D477300D78EC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CA8AA34163D477300D78EC4 /* InfoPlist.strings in Resources */,
+				3CA8AA3C163D477300D78EC4 /* Default.png in Resources */,
+				3CA8AA3E163D477300D78EC4 /* Default@2x.png in Resources */,
+				3CA8AA40163D477300D78EC4 /* Default-568h@2x.png in Resources */,
+				3CA8AA48163D477400D78EC4 /* first.png in Resources */,
+				3CA8AA4A163D477400D78EC4 /* first@2x.png in Resources */,
+				3CA8AA4F163D477400D78EC4 /* second.png in Resources */,
+				3CA8AA51163D477400D78EC4 /* second@2x.png in Resources */,
+				3CADA0EE163E653B00AB9B79 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CA8AA54163D477400D78EC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CA8AA63163D477400D78EC4 /* InfoPlist.strings in Resources */,
+				3CADA0E2163E48DA00AB9B79 /* README.md in Resources */,
+				3CADA0E4163E495000AB9B79 /* 开发文档.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3CA8AA55163D477400D78EC4 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3CA8AA21163D477300D78EC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CADA0F3163E675100AB9B79 /* FoodFriends.xcdatamodel in Sources */,
+				3CADA0F4163E675100AB9B79 /* MessageCoreData.h in Sources */,
+				3CADA0F5163E675100AB9B79 /* MessageCoreData.m in Sources */,
+				3CADA0F6163E675100AB9B79 /* UTMessage.h in Sources */,
+				3CADA0F7163E675100AB9B79 /* UTMessage.m in Sources */,
+				3CADA0F8163E675100AB9B79 /* UTPost.h in Sources */,
+				3CADA0F9163E675100AB9B79 /* UTPost.m in Sources */,
+				3CADA0FA163E675100AB9B79 /* UTMember.h in Sources */,
+				3CADA0FB163E675100AB9B79 /* UTMember.m in Sources */,
+				3CADA0FC163E675100AB9B79 /* UTTagGroup.h in Sources */,
+				3CADA0FD163E675100AB9B79 /* UTTagGroup.m in Sources */,
+				3CADA0FE163E675100AB9B79 /* UTJsonFoodFriends.h in Sources */,
+				3CADA0FF163E675100AB9B79 /* UTJsonFoodFriends.m in Sources */,
+				3CADA100163E675100AB9B79 /* UTClient.h in Sources */,
+				3CADA101163E675100AB9B79 /* UTClient.m in Sources */,
+				3CADA102163E675100AB9B79 /* UTAppDelegate.h in Sources */,
+				3CADA103163E675100AB9B79 /* UTInfoViewController.h in Sources */,
+				3CADA104163E675100AB9B79 /* UTInfoViewController.m in Sources */,
+				3CADA105163E675100AB9B79 /* UTMessageViewController.h in Sources */,
+				3CADA106163E675100AB9B79 /* UTMessageViewController.m in Sources */,
+				3CADA107163E675100AB9B79 /* UTMeViewController.h in Sources */,
+				3CADA108163E675100AB9B79 /* UTMeViewController.m in Sources */,
+				3CADA109163E675100AB9B79 /* UTPostViewController.h in Sources */,
+				3CADA10A163E675100AB9B79 /* UTPostViewController.m in Sources */,
+				3CADA10B163E675100AB9B79 /* UTButtonPressed.h in Sources */,
+				3CADA10C163E675100AB9B79 /* UTButtonPressed.m in Sources */,
+				3CA8AA36163D477300D78EC4 /* main.m in Sources */,
+				3CA8AA3A163D477300D78EC4 /* UTAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CA8AA52163D477400D78EC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CA8AA66163D477400D78EC4 /* FoodFriends_withUTTests.m in Sources */,
+				3CA8AA7A163D47DE00D78EC4 /* UTInfoViewController.m in Sources */,
+				3CA8AA7B163D47DE00D78EC4 /* UTMessageViewController.m in Sources */,
+				3CA8AA7C163D47DE00D78EC4 /* UTMeViewController.m in Sources */,
+				3CA8AA7D163D47DE00D78EC4 /* UTPostViewController.m in Sources */,
+				3CA8AA7E163D47DE00D78EC4 /* UTButtonPressed.m in Sources */,
+				3CAA61A9163D4C9600C16D79 /* UTClient.m in Sources */,
+				3CAA61AD163D4CD900C16D79 /* UTJsonFoodFriends.m in Sources */,
+				3CAA61B6163D4D1C00C16D79 /* UTMessage.m in Sources */,
+				3CAA61B7163D4D1C00C16D79 /* UTPost.m in Sources */,
+				3CAA61B8163D4D1C00C16D79 /* UTMember.m in Sources */,
+				3CAA61B9163D4D1C00C16D79 /* UTTagGroup.m in Sources */,
+				3CAA61BE163D67EB00C16D79 /* FoodFriends.xcdatamodel in Sources */,
+				3CAA61BF163D67EB00C16D79 /* MessageCoreData.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3CA8AA5D163D477400D78EC4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CA8AA24163D477300D78EC4 /* FoodFriends_withUT */;
+			targetProxy = 3CA8AA5C163D477400D78EC4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3CA8AA32163D477300D78EC4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CA8AA33163D477300D78EC4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3CA8AA61163D477400D78EC4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CA8AA62163D477400D78EC4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3CA8AA67163D477400D78EC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3CA8AA68163D477400D78EC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3CA8AA6A163D477400D78EC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FoodFriends_withUT/FoodFriends_withUT-Prefix.pch";
+				INFOPLIST_FILE = "FoodFriends_withUT/FoodFriends_withUT-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3CA8AA6B163D477400D78EC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FoodFriends_withUT/FoodFriends_withUT-Prefix.pch";
+				INFOPLIST_FILE = "FoodFriends_withUT/FoodFriends_withUT-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3CA8AA6D163D477400D78EC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FoodFriends_withUT.app/FoodFriends_withUT";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FoodFriends_withUT/FoodFriends_withUT-Prefix.pch";
+				INFOPLIST_FILE = "FoodFriends_withUTTests/FoodFriends_withUTTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		3CA8AA6E163D477400D78EC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FoodFriends_withUT.app/FoodFriends_withUT";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FoodFriends_withUT/FoodFriends_withUT-Prefix.pch";
+				INFOPLIST_FILE = "FoodFriends_withUTTests/FoodFriends_withUTTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3CA8AA1F163D477300D78EC4 /* Build configuration list for PBXProject "FoodFriends_withUT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CA8AA67163D477400D78EC4 /* Debug */,
+				3CA8AA68163D477400D78EC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CA8AA69163D477400D78EC4 /* Build configuration list for PBXNativeTarget "FoodFriends_withUT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CA8AA6A163D477400D78EC4 /* Debug */,
+				3CA8AA6B163D477400D78EC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CA8AA6C163D477400D78EC4 /* Build configuration list for PBXNativeTarget "FoodFriends_withUTTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CA8AA6D163D477400D78EC4 /* Debug */,
+				3CA8AA6E163D477400D78EC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3CA8AA1C163D477300D78EC4 /* Project object */;
+}
