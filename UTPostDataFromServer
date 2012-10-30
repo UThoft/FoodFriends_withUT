@@ -1,0 +1,21 @@
+#This file contains posts downloaded from Server.
+
+postID              = 201210183421
+postHost            = 201209091001
+postDate            = 2012-10-19
+postPlace           = 朝阳区北辰东路8号北辰时代生活广场B1楼B09A号(屈臣氏附近) 
+postPlaceID         = 01035792
+postPlaceCoordinate = x, y
+postPeopleNumber    = 2
+postType            = 3
+PostAcceptedMember  = 
+
+postID              = 201210201019
+postHost            = 201208231451
+postDate            = 2012-11-01
+postPlace           = 通州区果园翠屏里20-15号(312区间车站旁) 
+postPlaceID         = 01049821
+postPlaceCoordinate = x, y
+postPeopleNumber    = 2
+postType            = 1
+PostAcceptedMember  = 

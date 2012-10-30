@@ -1,5 +1,6 @@
-#This file contains posts related to this user.
+#This file contains posts related to this user 201209130016.
 #postID             = 201209104238
+#postHostID         = 201209140102
 #postDate           = 2012-09-11
 #postPlace          = 北京市海淀区双清路51号
 #postCoordinate     = 120, 140
@@ -8,19 +9,21 @@
 #postAcceptedMember = 
 
 postID              = 201210114238
+postHostID          = 201209140114
 postDate            = 2012-10-12
 postPlace           = 北京市朝阳区东大桥路8号秀水大厦6楼 (近建国门外大街)
 postPlaceID         = 01018922
 postPlaceCoordinate = x, y
 postPeopleNumber    = 2
 postType            = 2
-PostAcceptedMember  = 
+PostAcceptedMember  = 201209130016
 
 postID              = 201210121231
+postHostID          = 201209130016
 postDate            = 2012-10-14
 postPlace           = 安慧里一区甲1号楼
 postPlaceID         = 01023620
 postPlaceCoordinate = x, y
 postPeopleNumber    = 2
 postType            = 1
-PostAcceptedMember  = 
+PostAcceptedMember  = 201209140114

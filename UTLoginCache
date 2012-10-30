@@ -1,0 +1,8 @@
+#This file contains the log in cache of this user 201209130016.
+#encryption methord is base64, the password is mypassword.
+
+memberID                = 201209130016
+memberName              = UThoft_user
+memberImage             = ./Resource/image/201209130016image.jpg
+memberEmail             = UThoft_user@gmail.com
+memberEncryptedPassword = bXlwYXNzd29yZA==

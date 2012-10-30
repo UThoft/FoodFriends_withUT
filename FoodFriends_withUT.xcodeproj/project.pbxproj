@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C4A577B163F9E3B0068C04F /* UTPostDataFromServer in Resources */ = {isa = PBXBuildFile; fileRef = 3C4A577A163F9E3B0068C04F /* UTPostDataFromServer */; };
+		3C4A577E163FA0E20068C04F /* 201209140114image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C4A577C163FA0E20068C04F /* 201209140114image.jpg */; };
+		3C4A577F163FA0E20068C04F /* 201209183300image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C4A577D163FA0E20068C04F /* 201209183300image.jpg */; };
+		3C4A5781163FA2180068C04F /* UTLoginCache in Resources */ = {isa = PBXBuildFile; fileRef = 3C4A5780163FA2180068C04F /* UTLoginCache */; };
 		3CA8A82D163F83FD0084C268 /* smile.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3CA8A82C163F83FD0084C268 /* smile.jpg */; };
 		3CA8A838163F844B0084C268 /* FoodFriends.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 3CA8A835163F844B0084C268 /* FoodFriends.xcdatamodel */; };
 		3CA8A839163F844B0084C268 /* MessageCoreData.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA8A837163F844B0084C268 /* MessageCoreData.m */; };
@@ -56,6 +60,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3C4A577A163F9E3B0068C04F /* UTPostDataFromServer */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = UTPostDataFromServer; sourceTree = SOURCE_ROOT; usesTabs = 0; };
+		3C4A577C163FA0E20068C04F /* 201209140114image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 201209140114image.jpg; path = Library/Cache/Resource/image/201209140114image.jpg; sourceTree = SOURCE_ROOT; };
+		3C4A577D163FA0E20068C04F /* 201209183300image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 201209183300image.jpg; path = Library/Cache/Resource/image/201209183300image.jpg; sourceTree = SOURCE_ROOT; };
+		3C4A5780163FA2180068C04F /* UTLoginCache */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = UTLoginCache; sourceTree = SOURCE_ROOT; };
 		3CA8A823163F7C3B0084C268 /* 201211080154.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 201211080154.png; sourceTree = "<group>"; };
 		3CA8A825163F7C4A0084C268 /* 201211080010.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 201211080010.wav; sourceTree = "<group>"; };
 		3CA8A82C163F83FD0084C268 /* smile.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = smile.jpg; sourceTree = "<group>"; };
@@ -114,9 +122,9 @@
 		3CA8AA62163D477400D78EC4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3CA8AA64163D477400D78EC4 /* FoodFriends_withUTTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FoodFriends_withUTTests.h; sourceTree = "<group>"; };
 		3CA8AA65163D477400D78EC4 /* FoodFriends_withUTTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FoodFriends_withUTTests.m; sourceTree = "<group>"; };
-		3CA9D562163F70E300215D6B /* UTMessageData */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = UTMessageData; path = Library/Cache/UTMessageData; sourceTree = "<group>"; };
-		3CA9D564163F70F300215D6B /* UTPostData */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = UTPostData; path = Library/Cache/UTPostData; sourceTree = "<group>"; };
-		3CA9D566163F710200215D6B /* UTMemberData */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = UTMemberData; path = Library/Cache/UTMemberData; sourceTree = "<group>"; };
+		3CA9D562163F70E300215D6B /* UTMessageDataCache */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = UTMessageDataCache; path = Library/Cache/UTMessageDataCache; sourceTree = "<group>"; };
+		3CA9D564163F70F300215D6B /* UTPostDataCache */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = UTPostDataCache; path = Library/Cache/UTPostDataCache; sourceTree = "<group>"; };
+		3CA9D566163F710200215D6B /* UTMemberDataCache */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = UTMemberDataCache; path = Library/Cache/UTMemberDataCache; sourceTree = "<group>"; };
 		3CADA0E1163E48DA00AB9B79 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		3CADA0ED163E653B00AB9B79 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
 		3CADA10E163E686000AB9B79 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
@@ -168,6 +176,8 @@
 		3CA8A822163F75A00084C268 /* image */ = {
 			isa = PBXGroup;
 			children = (
+				3C4A577C163FA0E20068C04F /* 201209140114image.jpg */,
+				3C4A577D163FA0E20068C04F /* 201209183300image.jpg */,
 				3CA8A823163F7C3B0084C268 /* 201211080154.png */,
 			);
 			name = image;
@@ -365,9 +375,10 @@
 		3CA9D55F163EFF2F00215D6B /* Cache */ = {
 			isa = PBXGroup;
 			children = (
-				3CA9D562163F70E300215D6B /* UTMessageData */,
-				3CA9D564163F70F300215D6B /* UTPostData */,
-				3CA9D566163F710200215D6B /* UTMemberData */,
+				3CA9D562163F70E300215D6B /* UTMessageDataCache */,
+				3CA9D564163F70F300215D6B /* UTPostDataCache */,
+				3CA9D566163F710200215D6B /* UTMemberDataCache */,
+				3C4A5780163FA2180068C04F /* UTLoginCache */,
 				3CA8A81E163F75010084C268 /* Resource */,
 			);
 			name = Cache;
@@ -377,6 +388,7 @@
 		3CA9D560163EFF3700215D6B /* tmp */ = {
 			isa = PBXGroup;
 			children = (
+				3C4A577A163F9E3B0068C04F /* UTPostDataFromServer */,
 			);
 			name = tmp;
 			path = Library/tmp;
@@ -473,6 +485,10 @@
 				3CA8A86C163F845D0084C268 /* first@2x.png in Resources */,
 				3CA8A86D163F845D0084C268 /* second.png in Resources */,
 				3CA8A86E163F845D0084C268 /* second@2x.png in Resources */,
+				3C4A577B163F9E3B0068C04F /* UTPostDataFromServer in Resources */,
+				3C4A577E163FA0E20068C04F /* 201209140114image.jpg in Resources */,
+				3C4A577F163FA0E20068C04F /* 201209183300image.jpg in Resources */,
+				3C4A5781163FA2180068C04F /* UTLoginCache in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
