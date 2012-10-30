@@ -20,4 +20,18 @@
 //  Settings
 + (id)checkSetting:(NSInteger)settingID;
 
+//  Cache
++ (id)checkCache:(NSInteger)cacheID;
+
+
+
+
+//  Files Related
++ (void)readFromFileByKeyword:(NSString *)fileLocation
+                    :(NSString *)keyword;
++ (void)readFromFileByLine:(NSString *)file;
+
+
+
+
 @end

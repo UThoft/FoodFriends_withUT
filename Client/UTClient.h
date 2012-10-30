@@ -19,7 +19,7 @@
 - (bool)checkLogCache;
 
 //  Check Info
-- (int)checkLogI
+- (int)checkLogInfo;
 
 
 @end
