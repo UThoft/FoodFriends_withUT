@@ -1,38 +1,38 @@
 #This file contains the message related data cache of this user 201209130016.
 #Add a new message as the following format.
-#messageDate        = 2012-10-21
-#messageType        = text
+#messageDate        = 2012-10-21 10:31:58
+#messageType        = 0
 #messageFromMemberID= 201209130016
 #messageToMemberID  = 201209140114
 #messageContent     = Where are you?
 
 
-messageDate         = 2012-11-08
-messageType         = text
-messageFromMemberID = 201208140044
+messageDate         = 2012-11-08 11:30:31
+messageType         = 0
+messageFromMemberID = 201209130016
 messageToMemberID   = 201209221489
 messageContent      = How are you today?
 
-messageDate         = 2012-11-08
-messageType         = text
+messageDate         = 2012-11-08 12:11:15
+messageType         = 0
 messageFromMemberID = 201209221489
-messageToMemberID   = 201208140044
+messageToMemberID   = 201209130016
 messageContent      = Fine, thanks!
 
-messageDate         = 2012-11-08
-messageType         = image
-messageFromMemberID = 201208140044
+messageDate         = 2012-11-08 12:12:45
+messageType         = 1
+messageFromMemberID = 201209130016
 messageToMemberID   = 201209221489
 messageContent      = /smile
 
-messageDate         = 2012-11-08
-messageType         = sound
+messageDate         = 2012-11-08 12:20:13
+messageType         = 2
 messageFromMemberID = 201209221489
-messageToMemberID   = 201208140044
+messageToMemberID   = 201209130016
 messageContent      = ./Resource/sound/201211080010.wav
 
-messageDate         = 2012-11-08
-messageType         = image
-messageFromMemberID = 201208140044
+messageDate         = 2012-11-08 12:21:26
+messageType         = 1
+messageFromMemberID = 201209130016
 messageToMemberID   = 201209221489
 messageContent      = ./Resource/image/201211080154.png    

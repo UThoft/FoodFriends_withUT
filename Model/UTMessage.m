@@ -10,4 +10,36 @@
 
 @implementation UTMessage
 
+@synthesize messageDate;
+@synthesize messageType;
+@synthesize messageContent;
+
+- (id)initWithDefaultSettings
+{
+    self = [super init];
+    if (self)
+    {
+        self.messageDate    = [[NSDate alloc]init];
+        self.messageType    = 0;
+        self.messageContent = @"";
+    }
+    return self;
+}
+
+- (id)initWithAssignedSettings:(NSDate *)mesDate
+                              :(int)mesType
+                              :(NSObject *)mesContent
+{
+    self = [super init];
+    if (self)
+    {
+        self.messageDate    = mesDate;
+        self.messageType    = mesType;
+        self.messageContent = mesContent;
+    }
+    return self;
+}
+
+
+
 @end

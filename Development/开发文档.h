@@ -21,7 +21,8 @@ else
 
 3、函数注释写在定义的前面
 /*
- FuntionName:
+ FunctionName:
+ Description:
  Parameters:
  Return:
  */

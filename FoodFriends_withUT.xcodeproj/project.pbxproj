@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C1E95631642133700211785 /* UTGetInfoProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C1E95621642133700211785 /* UTGetInfoProxy.m */; };
 		3C4A577B163F9E3B0068C04F /* UTPostDataFromServer in Resources */ = {isa = PBXBuildFile; fileRef = 3C4A577A163F9E3B0068C04F /* UTPostDataFromServer */; };
 		3C4A577E163FA0E20068C04F /* 201209140114image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C4A577C163FA0E20068C04F /* 201209140114image.jpg */; };
 		3C4A577F163FA0E20068C04F /* 201209183300image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C4A577D163FA0E20068C04F /* 201209183300image.jpg */; };
@@ -60,10 +61,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3C4A577A163F9E3B0068C04F /* UTPostDataFromServer */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = UTPostDataFromServer; sourceTree = SOURCE_ROOT; usesTabs = 0; };
+		3C1E95611642133700211785 /* UTGetInfoProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTGetInfoProxy.h; sourceTree = "<group>"; };
+		3C1E95621642133700211785 /* UTGetInfoProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTGetInfoProxy.m; sourceTree = "<group>"; };
+		3C4193F4164231E700F185FB /* 公共函数开发文档.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "公共函数开发文档.h"; sourceTree = "<group>"; };
+		3C4A577A163F9E3B0068C04F /* UTPostDataFromServer */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = UTPostDataFromServer; path = Library/tmp/UTPostDataFromServer; sourceTree = SOURCE_ROOT; usesTabs = 0; };
 		3C4A577C163FA0E20068C04F /* 201209140114image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 201209140114image.jpg; path = Library/Cache/Resource/image/201209140114image.jpg; sourceTree = SOURCE_ROOT; };
 		3C4A577D163FA0E20068C04F /* 201209183300image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 201209183300image.jpg; path = Library/Cache/Resource/image/201209183300image.jpg; sourceTree = SOURCE_ROOT; };
-		3C4A5780163FA2180068C04F /* UTLoginCache */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = UTLoginCache; sourceTree = SOURCE_ROOT; };
+		3C4A5780163FA2180068C04F /* UTLoginCache */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = UTLoginCache; path = Library/Cache/UTLoginCache; sourceTree = SOURCE_ROOT; };
 		3CA8A823163F7C3B0084C268 /* 201211080154.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 201211080154.png; sourceTree = "<group>"; };
 		3CA8A825163F7C4A0084C268 /* 201211080010.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 201211080010.wav; sourceTree = "<group>"; };
 		3CA8A82C163F83FD0084C268 /* smile.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = smile.jpg; sourceTree = "<group>"; };
@@ -209,6 +213,7 @@
 				3CA8A831163F84350084C268 /* Message_开发文档.h */,
 				3CA8A832163F84350084C268 /* Post_开发文档.h */,
 				3CA8A833163F84350084C268 /* 开发文档.h */,
+				3C4193F4164231E700F185FB /* 公共函数开发文档.h */,
 			);
 			path = Development;
 			sourceTree = "<group>";
@@ -251,6 +256,8 @@
 				3CA8A84B163F845D0084C268 /* UTGetInfoFromFile.m */,
 				3CA8A84C163F845D0084C268 /* UTJsonFoodFriends.h */,
 				3CA8A84D163F845D0084C268 /* UTJsonFoodFriends.m */,
+				3C1E95611642133700211785 /* UTGetInfoProxy.h */,
+				3C1E95621642133700211785 /* UTGetInfoProxy.m */,
 			);
 			path = Client;
 			sourceTree = "<group>";
@@ -540,6 +547,7 @@
 				3CA8A870163F845D0084C268 /* UTMessage.m in Sources */,
 				3CA8A871163F845D0084C268 /* UTPost.m in Sources */,
 				3CA8A872163F845D0084C268 /* UTTagGroup.m in Sources */,
+				3C1E95631642133700211785 /* UTGetInfoProxy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
