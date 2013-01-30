@@ -1,0 +1,16 @@
+#This file contains members related to this user 201209130016.
+#These members are the friends of this user or the people who communicated with the user before.
+#memberType is the relation between the member and the user.
+#1 refers to talkbefore
+#2 refers to friend
+#3 refers to blacksheet
+
+memberID    = 201209140114
+memberName  = UThoft_friend
+memberImage = ./Resource/image/201209140114image.jpg
+memberType  = 2
+
+memberID    = 201209183300
+memberName  = UThoft_talkbefore
+memberImage = ./Resource/image/201209183300image.jpg
+memberType  = 1

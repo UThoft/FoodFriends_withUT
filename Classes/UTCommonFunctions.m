@@ -6,9 +6,9 @@
 //  Copyright (c) 2012年 UThoft. All rights reserved.
 //
 
-#import "UTButtonPressed.h"
+#import "UTCommonFunctions.h"
 
-@implementation UTButtonPressed
+@implementation UTCommonFunctions
 {
     
 }
@@ -18,10 +18,10 @@
  */
 
 
-+ (void) buttonPressed:(NSInteger)buttonId
++ (void)showMessageWindow:(id)sender
 
 {
-    if (buttonId == 1)  // XXX
+    if ([sender tag] == 1)  // XXX
     {
         UIAlertView *alert = [[UIAlertView alloc]initWithTitle:@"Hello" message:@"Yes, cool!" delegate:nil cancelButtonTitle:@"NO, don't press me" otherButtonTitles:nil, nil];
         [alert show];

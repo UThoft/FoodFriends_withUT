@@ -7,12 +7,24 @@
 //
 
 #import "UTAppDelegate.h"
+#import "UTGetInfoProxy.h"
 
 @implementation UTAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    UTGetInfoProxy      *getInfoProxy       = [[UTGetInfoProxy new]initWithDefaultDefine];
+    NSString            *hostID             = @"201209130016";
+    NSString            *relatedID          = @"201209221489";
+    NSMutableDictionary *messageDictionary  = [NSMutableDictionary new];
+    NSError             *error              = [NSError new];
+    [getInfoProxy getMessageOb:nil
+                              :hostID
+                              :relatedID
+                              :messageDictionary
+                              :error];
+    NSLog(@"The number of message is %d", [messageDictionary count]);
     return YES;
 }
 							

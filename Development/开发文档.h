@@ -21,7 +21,8 @@ else
 
 3、函数注释写在定义的前面
 /*
- FuntionName:
+ FunctionName:
+ Description:
  Parameters:
  Return:
  */
@@ -44,6 +45,11 @@ else
 NSString            *memberID; // 会员号
 NSString            *memberName; // 会员名
 //注意此处定义对齐
+
+7、与服务器通信的先留接口
+声明在Client\UTJsonFoodFriends.h里面
+
+8、每个模块有自己的define文件
 
 二、关于github
     github相信大家都知道了，在每次编程以前，请更新到最新版本代码，然后在编程完
